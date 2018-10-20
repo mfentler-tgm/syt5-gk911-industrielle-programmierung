@@ -1,3 +1,4 @@
+Mario Fentler 5CHIT
 # syt5-gk911-industrielle-programmierung
 
 ## Einleitung
@@ -119,7 +120,16 @@ Zum Testen kann man einfach die currentValue > als die Maximal Value setzen. Dan
 ### Task 3 - Tank befüllen
 _Natürlich muss der Tank auch gefüllt werden. Dazu soll alle 8 Sekunden das Einlaufventil V9 für 5 Sekunden geöffnet werden. Natürlich muss bei einem signalisierten Überlauf das Einlaufventil verschlossen werden._  
 
+Um das zu realisieren werden Timer-Baumsteine verwendet. Da gibt es zwei zur Auswahl:  
+- TON (ist auf 0 und gibt nach t Sekunden ein Signal 1)  
+- TOF (ist auf 1 t Sekunden lang und schaltet sich dann auf 0)
 
+Die Problemstellung wird in diesem Fall mittels Funktionsbausteinen gelöst und kann dann so aussehen.  
+(glv.s7 ist die globale Variable für den Überlaufschutz)    
+
+<div align="center">
+    <img src="images/programm3.PNG" alt="Programm 3" width="90%" align="center" style="border: solid 1px black;" />
+</div>
 
 ## Sources
 [1] https://infosys.beckhoff.de/index.php?content=../content/1031/tcplccontrol/html/tcplcctrl_languages%20st.htm&id=5754912264349492758  

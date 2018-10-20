@@ -131,6 +131,32 @@ Die Problemstellung wird in diesem Fall mittels Funktionsbausteinen gelöst und 
     <img src="images/programm3.PNG" alt="Programm 3" width="90%" align="center" style="border: solid 1px black;" />
 </div>
 
+### Task 4 - Funktionsbaustein erstellen:
+_Erstelle einen Funktionsbaustein „Kreuzschaltung“ mit drei Eingängen und einem Ausgang, der die Funktion der Kreuzschaltung aus 1. kapselt. Teste den Funktionsbaustein, indem Aufgabe 1 in einem neuen Programm damit umgesetzt wird (der ursprüngliche Code von Aufgabe 1 muss erhalten bleiben, also wirklich ein neues Programm erstellen!_  
+
+Um einen neuen Funktionsbaustein zu erstellen, folgende Schritte:  
+- Rechtsklick auf Application
+- Objekt hinzufügen
+- POU
+- Radiobutton Funktionsbaustein auswählen und Namen geben.
+- Anschließend im Funktionsbaustein die 3 Input- und die eine Output Variable definieren.
+- Die Schaltung aufbauen.  
+
+Das ganze sieht dann in etwa so aus:  
+
+<div align="center">
+    <img src="images/meinFUP.PNG" alt="Mein Funktionsbaustein" width="90%" align="center" style="border: solid 1px black;" />
+</div>
+
+Dieser Funktionsbaustein ist jetzt in einem Projekt ganz einfach verwendbar. Dazu wählt man ihn einfach rechts bei den "Bausteinen" aus:  
+
+<div align="center">
+    <img src="images/programm4.PNG" alt="Programm 4" width="90%" align="center" style="border: solid 1px black;" />
+</div>
+
+## Handzeichnung
+Hier kommt noch die Zeichnung hin.
+
 ## Sources
 [1] https://infosys.beckhoff.de/index.php?content=../content/1031/tcplccontrol/html/tcplcctrl_languages%20st.htm&id=5754912264349492758  
 [2] https://help.codesys.com/api-content/2/codesys/3.5.12.0/en/_cds_vartypes_var_global/  

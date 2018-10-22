@@ -155,7 +155,9 @@ Dieser Funktionsbaustein ist jetzt in einem Projekt ganz einfach verwendbar. Daz
 </div>
 
 ## Handzeichnung
-Hier kommt noch die Zeichnung hin.
+<div align="center">
+    <img src="images/skizze.jpeg" alt="Skizze" width="90%" align="center" style="border: solid 1px black;" />
+</div>
 
 ## Sources
 [1] https://infosys.beckhoff.de/index.php?content=../content/1031/tcplccontrol/html/tcplcctrl_languages%20st.htm&id=5754912264349492758  
